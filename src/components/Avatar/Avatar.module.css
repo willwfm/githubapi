@@ -1,0 +1,18 @@
+.avatar--purpleBorder {
+  border: 9px solid var(--color-purple);
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  height: 100%;
+}
+
+.avatar__img {
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}

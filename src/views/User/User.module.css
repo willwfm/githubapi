@@ -1,0 +1,32 @@
+.username::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.username__input {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  height: 40px;
+}
+
+.username__search {
+  float: left;
+  width: 20%;
+  height: 40px;
+  padding: 10px;
+  background: var(--color-purple);
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.username__search:hover {
+  background: #5d5490;
+}

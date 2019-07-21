@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+}
+
+.header__title {
+    flex: 1;
+}
+
+.repositories_list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.repositories_list__item {
+    border: 1px solid var(--base-grey);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+
+.repositories_list__item--header {
+    display: flex;
+}
+
+.repositories_list__item--header--title {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-word;
+}
+
+.repositories_list__item--header--stars {
+    display: flex;
+    align-content: center;
+}

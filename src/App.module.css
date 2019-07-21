@@ -1,0 +1,28 @@
+:root {
+  --color-red: #f06361;
+  --color-white: #ffffff;
+  --color-purple: #655ba2;
+  --color-dark-gray: #333333;
+  --darkest-grey: #494c4d;
+  --base-grey: #8d9496;
+  --padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #ececec;
+}
+
+:global #root {
+  height: 100%;
+}

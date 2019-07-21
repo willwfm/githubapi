@@ -1,0 +1,21 @@
+.userDetails {
+  margin: auto;  
+}
+
+.avatar {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.userDetails__name {
+  color: #747c81;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 699px) {
+  .avatar {
+    width: 40%;
+  }
+}

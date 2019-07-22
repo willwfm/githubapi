@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-###Sobre
+### Sobre
 
 Este projeto foi desenvolvido usando React, nele fazemos uma busca de usuários do GitHub pelo 'username' e buscamos seus repositórios <br>
 Disponibizamos dois exemplos para pegar esses dados da api, um usando javascript fetch e outro usando graphql

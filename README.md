@@ -23,7 +23,6 @@ Search for `REACT_APP_GITHUB_TOKEN` on `.env` and replace `PERSONAL_TOKEN_HERE` 
 
 Busque por `REACT_APP_GITHUB_TOKEN` no arquivo `.env` na raiz do projeto e altere o `PERSONAL_TOKEN_HERE` pelo token gerado <br>
 
-Importante notar que cada token gerado só é válido no computador onde foi gerado.
 
 ### `npm i`
 
@@ -65,3 +64,5 @@ https://www.w3schools.com/howto/howto_css_search_button.asp
 https://reactgo.com/graphql-react-apollo-client/
 
 https://blog.codeship.com/an-introduction-to-graphql-via-the-github-api/
+
+https://reactgo.com/deploy-react-app-github-pages/

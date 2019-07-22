@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Preview (https://willwfm.github.io/githubapi)
+
 ### About
 
 This project was developed using React, it searches for users of GitHub by 'username' and searches its repositories.<br>

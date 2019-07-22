@@ -58,6 +58,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Learn More
 
+https://www.alura.com.br/artigos/criando-componentes-css-com-padrao-bem
+
 https://www.w3schools.com/howto/howto_css_search_button.asp
 
 https://reactgo.com/graphql-react-apollo-client/

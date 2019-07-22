@@ -154,12 +154,7 @@ const UserDetails = ({ data: user }) => {
                   }
                 />
               </span>
-              <Text
-                bold={true}
-                size="14"
-                text="Ordenar por&nbsp;"
-                secondary={true}
-              />
+              
               <select
                 value={filter}
                 onChange={e => handleChange(e, data, fetchMore)}
@@ -171,7 +166,7 @@ const UserDetails = ({ data: user }) => {
                 ))}
               </select>
             </div>
-            <ul id="repositories" className={styles.repositories_list}>
+            <ul className={styles.repositories_list}>
               {repositories.map(x => (
                 <li
                   key={x.node.id}

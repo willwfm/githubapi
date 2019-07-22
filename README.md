@@ -5,6 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project was developed using React, it searches for users of GitHub by 'username' and searches its repositories.<br>
 We have two examples to get this data from the api, one using javascript fetch and another using graphql <br>
 
+### `npm i`
+
+After cloning the repository, run the `npm i` command to install the project dependencies
+
 ## Available Scripts
 
 In the project directory, you can run:

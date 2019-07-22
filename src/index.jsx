@@ -46,6 +46,8 @@ const payload = {
 
   headers.set("Authorization", `Bearer ${result.token}`);
 
+  localStorage.setItem('token', result.token);
+
   const client = new ApolloClient({
     uri: process.env.REACT_APP_GITHUB_API_GRAPHQL,
     request: operation => {

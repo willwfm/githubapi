@@ -8,7 +8,22 @@ const useFetch = (url, options) => {
 
   useEffect(() => {
     async function fetchUrl() {
-      const response = await fetch(url, options);
+
+      let params = options;
+
+      if (!params || !params.headers) {
+        const token = localStorage.getItem("token");
+        if (token) {
+          params = {
+            headers: new Headers({
+              Accept: "application/vnd.github.machine-man-preview+json",
+              Authorization: `Bearer ${token}`
+            })
+          };
+        }
+      }
+
+      const response = await fetch(url, params);
 
       if (response.status === 500) {
         setError(true);

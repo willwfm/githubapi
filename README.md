@@ -6,6 +6,8 @@ Preview (https://willwfm.github.io/githubapi)
 
 This project was developed using React, it searches for users of GitHub by 'username' and searches its repositories.<br>
 We have two examples to get this data from the api, one using javascript fetch and another using graphql <br>
+Authenticating with GitHub Apps to have more requests limits the GitHub apis, without authentication can make 60 requests per hour, while authenticated this limit is 5000 request per hour <br>
+(https://developer.github.com/v3/#rate-limiting)
 
 ### `npm i`
 
@@ -49,5 +51,7 @@ https://reactgo.com/graphql-react-apollo-client/
 https://blog.codeship.com/an-introduction-to-graphql-via-the-github-api/
 
 https://reactgo.com/deploy-react-app-github-pages/
+
+https://developer.github.com/apps/building-github-apps/authenticating-with-github-apps/
 
 https://gist.github.com/jcready/6dff3db44fe9e3465d39c2d4f5295478
